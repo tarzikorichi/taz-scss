@@ -1,0 +1,76 @@
+// Colors
+// Grayscale
+$white: #ffffff !default;
+$black: #000000 !default;
+
+// Primary Colors
+$primary: #007bff !default;
+$secondary: #6c757d !default;
+
+// Semantic Colors
+$success: #28a745 !default;
+$info: #17a2b8 !default;
+$warning: #ffc107 !default;
+$danger: #dc3545 !default;
+
+// Other Colors
+$red: #ff0000 !default;
+$green: #00ff00 !default;
+$blue: #0000ff !default;
+$yellow: #ffff00 !default;
+$orange: #ffa500 !default;
+$purple: #800080 !default;
+$pink: #ffc0cb !default;
+
+$light: #f8f9fa !default;
+$dark: #343a40 !default;
+
+// colors palette
+$colors: (
+  // Grayscale
+  "white":$white,
+  "black":$black,
+
+  // Primary Colors
+  "primary":$primary,
+  "secondary":$secondary,
+
+  // Semantic Colors
+  "success":$success,
+  "info": $info,
+  "warning":$warning,
+  "danger":$danger,
+  "error": $red,
+
+  // Other Colors
+  "red": $red,
+  "green":$green,
+  "blue":$blue,
+  "yellow":$yellow,
+  "orange":$orange,
+  "purple":$purple,
+  "pink": $pink,
+);
+
+// @debug map-get($colors, "pink");
+
+// spacing 
+$base-padding: 0.75rem !default; 
+$base-margin: 0.75rem !default;
+
+// borders
+
+$base-border-thickness: 1px !default;
+$base-border-raduis: 20px !default;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,.1) !default;
+
+// font sizes
+$base-font-size: 1rem !default;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-md: $base-font-size * 1;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
